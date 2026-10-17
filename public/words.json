@@ -1,0 +1,124 @@
+{
+  "categories": [
+    {
+      "id": "greetings",
+      "name": "Greetings",
+      "korean": "인사",
+      "description": "Hello, thank you, sorry…",
+      "words": [
+        { "korean": "안녕하세요", "romanization": "annyeonghaseyo", "english": "Hello" },
+        { "korean": "안녕히 가세요", "romanization": "annyeonghi gaseyo", "english": "Goodbye (to someone leaving)" },
+        { "korean": "안녕히 계세요", "romanization": "annyeonghi gyeseyo", "english": "Goodbye (when you are leaving)" },
+        { "korean": "감사합니다", "romanization": "gamsahamnida", "english": "Thank you" },
+        { "korean": "고맙습니다", "romanization": "gomapseumnida", "english": "Thank you (warm)" },
+        { "korean": "죄송합니다", "romanization": "joesonghamnida", "english": "I'm sorry (formal)" },
+        { "korean": "미안해요", "romanization": "mianhaeyo", "english": "Sorry" },
+        { "korean": "네", "romanization": "ne", "english": "Yes" },
+        { "korean": "아니요", "romanization": "aniyo", "english": "No" },
+        { "korean": "괜찮아요", "romanization": "gwaenchanayo", "english": "It's okay / I'm fine" },
+        { "korean": "반갑습니다", "romanization": "bangapseumnida", "english": "Nice to meet you" },
+        { "korean": "실례합니다", "romanization": "sillyehamnida", "english": "Excuse me" }
+      ]
+    },
+    {
+      "id": "numbers",
+      "name": "Numbers",
+      "korean": "숫자",
+      "description": "Sino-Korean numbers for dates, money & phones",
+      "words": [
+        { "korean": "일", "romanization": "il", "english": "One (1)" },
+        { "korean": "이", "romanization": "i", "english": "Two (2)" },
+        { "korean": "삼", "romanization": "sam", "english": "Three (3)" },
+        { "korean": "사", "romanization": "sa", "english": "Four (4)" },
+        { "korean": "오", "romanization": "o", "english": "Five (5)" },
+        { "korean": "육", "romanization": "yuk", "english": "Six (6)" },
+        { "korean": "칠", "romanization": "chil", "english": "Seven (7)" },
+        { "korean": "팔", "romanization": "pal", "english": "Eight (8)" },
+        { "korean": "구", "romanization": "gu", "english": "Nine (9)" },
+        { "korean": "십", "romanization": "sip", "english": "Ten (10)" },
+        { "korean": "백", "romanization": "baek", "english": "One hundred (100)" },
+        { "korean": "천", "romanization": "cheon", "english": "One thousand (1,000)" }
+      ]
+    },
+    {
+      "id": "food",
+      "name": "Food",
+      "korean": "음식",
+      "description": "Rice, water, kimchi…",
+      "words": [
+        { "korean": "밥", "romanization": "bap", "english": "Rice / meal" },
+        { "korean": "물", "romanization": "mul", "english": "Water" },
+        { "korean": "김치", "romanization": "gimchi", "english": "Kimchi" },
+        { "korean": "사과", "romanization": "sagwa", "english": "Apple" },
+        { "korean": "바나나", "romanization": "banana", "english": "Banana" },
+        { "korean": "빵", "romanization": "ppang", "english": "Bread" },
+        { "korean": "우유", "romanization": "uyu", "english": "Milk" },
+        { "korean": "커피", "romanization": "keopi", "english": "Coffee" },
+        { "korean": "차", "romanization": "cha", "english": "Tea" },
+        { "korean": "고기", "romanization": "gogi", "english": "Meat" },
+        { "korean": "계란", "romanization": "gyeran", "english": "Egg" },
+        { "korean": "라면", "romanization": "ramyeon", "english": "Ramen (instant noodles)" }
+      ]
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "korean": "가족",
+      "description": "Mom, dad, siblings…",
+      "words": [
+        { "korean": "가족", "romanization": "gajok", "english": "Family" },
+        { "korean": "엄마", "romanization": "eomma", "english": "Mom" },
+        { "korean": "아빠", "romanization": "appa", "english": "Dad" },
+        { "korean": "어머니", "romanization": "eomeoni", "english": "Mother (polite)" },
+        { "korean": "아버지", "romanization": "abeoji", "english": "Father (polite)" },
+        { "korean": "할머니", "romanization": "halmeoni", "english": "Grandmother" },
+        { "korean": "할아버지", "romanization": "harabeoji", "english": "Grandfather" },
+        { "korean": "형", "romanization": "hyeong", "english": "Older brother (said by a male)" },
+        { "korean": "오빠", "romanization": "oppa", "english": "Older brother (said by a female)" },
+        { "korean": "누나", "romanization": "nuna", "english": "Older sister (said by a male)" },
+        { "korean": "언니", "romanization": "eonni", "english": "Older sister (said by a female)" },
+        { "korean": "동생", "romanization": "dongsaeng", "english": "Younger sibling" }
+      ]
+    },
+    {
+      "id": "colors",
+      "name": "Colors",
+      "korean": "색깔",
+      "description": "Red, blue, yellow…",
+      "words": [
+        { "korean": "빨간색", "romanization": "ppalgansaek", "english": "Red" },
+        { "korean": "파란색", "romanization": "paransaek", "english": "Blue" },
+        { "korean": "노란색", "romanization": "noransaek", "english": "Yellow" },
+        { "korean": "초록색", "romanization": "choroksaek", "english": "Green" },
+        { "korean": "검은색", "romanization": "geomeunsaek", "english": "Black" },
+        { "korean": "흰색", "romanization": "huinsaek", "english": "White" },
+        { "korean": "분홍색", "romanization": "bunhongsaek", "english": "Pink" },
+        { "korean": "보라색", "romanization": "borasaek", "english": "Purple" },
+        { "korean": "주황색", "romanization": "juhwangsaek", "english": "Orange" },
+        { "korean": "갈색", "romanization": "galsaek", "english": "Brown" },
+        { "korean": "회색", "romanization": "hoesaek", "english": "Gray" },
+        { "korean": "하늘색", "romanization": "haneulsaek", "english": "Sky blue" }
+      ]
+    },
+    {
+      "id": "everyday",
+      "name": "Everyday Words",
+      "korean": "일상",
+      "description": "Home, friend, today…",
+      "words": [
+        { "korean": "집", "romanization": "jip", "english": "House / home" },
+        { "korean": "학교", "romanization": "hakgyo", "english": "School" },
+        { "korean": "친구", "romanization": "chingu", "english": "Friend" },
+        { "korean": "사람", "romanization": "saram", "english": "Person" },
+        { "korean": "책", "romanization": "chaek", "english": "Book" },
+        { "korean": "돈", "romanization": "don", "english": "Money" },
+        { "korean": "시간", "romanization": "sigan", "english": "Time" },
+        { "korean": "오늘", "romanization": "oneul", "english": "Today" },
+        { "korean": "내일", "romanization": "naeil", "english": "Tomorrow" },
+        { "korean": "어제", "romanization": "eoje", "english": "Yesterday" },
+        { "korean": "화장실", "romanization": "hwajangsil", "english": "Bathroom" },
+        { "korean": "사랑", "romanization": "sarang", "english": "Love" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Hangeul Cards · 한글 카드</title>
+  <meta name="description" content="Learn basic Korean vocabulary with beautiful flashcards and pronunciation.">
+  <meta name="theme-color" content="#f3ead6" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#16130f" media="(prefers-color-scheme: dark)">
+
+  <!-- Taegeuk favicon, drawn inline so no image file is needed -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 40 40'%3E%3Ccircle cx='20' cy='20' r='20' fill='%231f3f8a'/%3E%3Cpath d='M0 20a20 20 0 0 1 40 0a10 10 0 0 1-20 0a10 10 0 0 0-20 0z' fill='%23b3202f'/%3E%3C/svg%3E">
+
+  <!-- Elegant Korean serif font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Start downloading the background photo early -->
+  <link rel="preload" href="images/seoul.jpg" as="image">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header glass">
+    <div class="brand">
+      <svg class="taegeuk" viewBox="0 0 40 40" aria-hidden="true">
+        <circle class="t-blue" cx="20" cy="20" r="20"/>
+        <path class="t-red" d="M0 20a20 20 0 0 1 40 0a10 10 0 0 1-20 0a10 10 0 0 0-20 0z"/>
+      </svg>
+      <div>
+        <h1 class="brand-title">Hangeul Cards</h1>
+        <p class="brand-sub" lang="ko">한글 카드</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- VIEW 1: choose a category -->
+    <section id="categories-view" class="view">
+      <div class="intro glass">
+        <p class="eyebrow">Beginner Korean vocabulary</p>
+        <h2>Choose a deck to study</h2>
+        <p class="lead">Tap a card to flip it, and press 🔊 to hear the word.</p>
+      </div>
+
+      <p id="status" class="status">Loading words…</p>
+      <div id="category-grid" class="category-grid"></div>
+    </section>
+
+    <!-- VIEW 2: study one deck -->
+    <section id="study-view" class="view" hidden>
+      <div class="study-header glass">
+        <div class="study-top">
+          <button id="back-btn" class="link-btn" type="button">← Categories</button>
+          <p id="counter" class="counter" aria-live="polite"></p>
+        </div>
+
+        <h2 class="deck-title">
+          <span id="deck-korean" class="deck-korean" lang="ko"></span>
+          <span id="deck-name"></span>
+        </h2>
+
+        <div class="progress" aria-hidden="true">
+          <div id="progress-bar" class="progress-bar"></div>
+        </div>
+      </div>
+
+      <div id="card-scene" class="card-scene">
+        <div id="card" class="card" role="button" tabindex="0"
+             aria-label="Flashcard. Press to flip." aria-pressed="false">
+          <div id="card-front" class="card-face card-front">
+            <span class="seal" aria-hidden="true" lang="ko">한</span>
+            <span id="front-korean" class="card-korean" lang="ko"></span>
+            <span class="card-hint">Tap or click to flip</span>
+          </div>
+          <div id="card-back" class="card-face card-back" aria-hidden="true">
+            <span id="back-korean" class="back-korean" lang="ko"></span>
+            <span id="back-roman" class="back-roman"></span>
+            <span class="divider" aria-hidden="true"></span>
+            <span id="back-english" class="back-english"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button id="prev-btn" class="btn" type="button">← Prev</button>
+        <button id="speak-btn" class="btn btn-icon" type="button"
+                aria-label="Pronounce the word" title="Pronounce" hidden>🔊</button>
+        <button id="shuffle-btn" class="btn" type="button" aria-label="Shuffle" title="Shuffle">
+          <span aria-hidden="true">⇄</span><span class="btn-label">Shuffle</span>
+        </button>
+        <button id="next-btn" class="btn btn-primary" type="button">Next →</button>
+      </div>
+
+      <p class="key-hint glass">Keyboard: Space to flip · ← → to move · Esc for categories</p>
+    </section>
+  </main>
+
+  <footer class="site-footer glass">
+    <p>Made for beginners learning Korean · <span lang="ko">화이팅!</span></p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
